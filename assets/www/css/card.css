@@ -1,55 +1,6 @@
 
-/*------------------------------
-=BASIC SETUP
-------------------------------*/
 
-/* Makeshift CSS Reset */
-* {
-	margin: 0;
-	padding: 0;
-}
 
-/* Tell the browser to render HTML 5 elements as block */
-header, footer, section, aside, nav, article {
-	display: block;
-}
-
-body {
-	margin: 0 auto;
-	padding: 22px 0;
-	width: 940px;
-	font: 13px/22px Helvetica, Arial, sans-serif;
-	background: #F0F0F0;
-}
-
-h1, h2 {
-	font-size: 28px;
-	line-height: 44px;
-	padding: 22px 0;
-}
-
-h3 {
-	font-size: 18px;
-	line-height: 22px;
-	padding: 11px 0;
-}
-
-p {
-	padding-bottom: 5px;
-}
-
-td{
-	padding-right: 20px;
-}
-
-/*------------------------------
-=IFRAME
-------------------------------*/
-
- iframe{
-   border-width:0px;
-   padding:0px;
-}
 
 /*------------------------------
 =NAVIGATION
@@ -210,9 +161,9 @@ nav {
 =CARD
 ------------------------------*/
 #mainPlaceHolder {
+	background-color:#A7A09A;
 	padding:10px;
 	width:100%;
-	background-color:lightgrey;
 }
 
 #cardText {
@@ -224,7 +175,7 @@ nav {
 }
 
 #cardOptions{
-	background-color:#800080;
+	background-color:#999999;
 	width:300px;
 	float:right;
 	padding:5px;
